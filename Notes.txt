@@ -31,4 +31,13 @@ const routes: Routes = [
 
 
 - How to apply routing in Angular
+1. Inside the app-component.html add anchor router link.
 
+<a routerLink=''>Home</a>
+<a routerLink="/contacts">Contacts</a>&nbsp;
+<a routerLink="/newcontact">New Contact</a>
+
+2. Underneath the routerLinks you NEED to add tag, what it does it acts a container for your html in ASP.NET it's similar 
+to Masterpage.
+
+<router-outlet></router-outlet>
