@@ -1,0 +1,34 @@
+
+-command to create new Angular project
+
+ng new YourAngularProject (which in this case we named it AddressBookAngular)
+
+- command to install Angular Material
+
+ng add @angular/material (simply answer following questions based on your needs)
+
+
+- command for creating new component / page / aspx if we're talking about ASP.NET Web Forms.
+
+ng generate component YourComponentName (for short hand use the ff : ng g c YourComponentName)
+-
+ng g c home
+ng g c contacts
+ng g c newcontact
+
+
+- Routing : In your app-routing.module.ts, simply import all necessary component then add route path.
+
+import { HomeComponent } from './home/home.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { NewcontactComponent } from './newcontact/newcontact.component';
+
+const routes: Routes = [
+  {path: '',component:HomeComponent},
+  {path: 'contacts',component:ContactsComponent},
+  {path: 'newcontact',component:NewcontactComponent},
+];
+
+
+- How to apply routing in Angular
+
