@@ -1,0 +1,23 @@
+.myInputs{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.action-buttons{
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 100px;
+}
+#contactCard{
+    min-width: 400px;
+}
+#mainContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#updateContactTitle{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
